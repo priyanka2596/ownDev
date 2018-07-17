@@ -1,12 +1,10 @@
  
 node {
- 
-
     stage('checkout source') {
         // when running in multi-branch job, one must issue this command
         checkout scm
     }
- 
+ //build stage
 stage('Build') {
 def antVersion = 'AntDefault'
 withEnv( ["ANT_HOME=${tool antVersion}"] ) {
