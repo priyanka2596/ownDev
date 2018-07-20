@@ -3,18 +3,18 @@
 
     <property environment="env"/>
  <target name="deploy">
-        <sf:deploy username="${sf2.username}" 
-                     password="${sf2.password}" 
-                     serverurl="${sf2.serverurl}" 
+        <sf:deploy username="${sf1.username}" 
+                     password="${sf1.password}" 
+                     serverurl="${sf1.serverurl}" 
                      deployRoot="src"
             ignoreWarnings="true"
             singlePackage="true"
             purgeOnDelete="true" />
     </target>
     <target name="fetchChanges">
-        <sf:retrieve username="${sf1.username}"
-                     password="${sf1.password}"
-                     serverurl="${sf1.serverurl}"
+        <sf:retrieve username="${sf2.username}"
+                     password="${sf2.password}"
+                     serverurl="${sf2.serverurl}"
                      retrieveTarget="src"
                      unpackaged="/src/package.xml"/>
     </target>
