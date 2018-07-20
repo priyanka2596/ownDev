@@ -9,10 +9,7 @@
         <members>*</members>
         <name>ApexComponent</name>
     </types>
-    <types>
-        <members>*</members>
-        <name>ApexPage</name>
-    </types>
+   
     <types>
         <members>*</members>
         <name>ApexTestSuite</name>
@@ -47,6 +44,9 @@
         <members>*</members>
         <name>CustomTab</name>
     </types>
-     
+      <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
     <version>38.0</version>
 </Package>
