@@ -48,5 +48,9 @@
         <members>*</members>
         <name>ApexPage</name>
     </types>
+ <types>
+    <members>*</members>
+    <name>CustomApplication</name>
+  </types>
     <version>38.0</version>
 </Package>
